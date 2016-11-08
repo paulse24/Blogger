@@ -4,6 +4,9 @@
   <%= link_to tag.name, tag_path(tag) %>
   <% end %>
 </p>
+
+<p><%= image_tag @article.image.url %>
+
 <p><%= @article.body %></h1>
 
 
